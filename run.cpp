@@ -146,8 +146,82 @@ int main()
      }
      return 0;
 }
-#include <bits/stdc++.h>
+
+ #include <bits/stdc++.h>
 using namespace std;
 int main()
 {
+    int marks;
+    cin >> marks;
+     if(marks<=10){
+      cout << "LOWDE ";
+      if(marks<=5){
+             cout << "kyu likha bey exam";
+      }
+     }
+     else if (marks<=20)
+     {
+      cout << "F";
+     }
+       else if (marks<=30)
+     {
+      cout << "E";
+     }
+       else if (marks<=40)
+     {
+      cout << "D";
+     }
+       else if (marks<=50)
+     {
+      cout << "B";
+     }
+       else if (marks<=60)
+     {
+      cout << "B";
+     }
+       else if (marks<=70)
+     {
+      cout << "A";
+     }
+     return 0;
 }
+ #include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int marks;
+    cin >> marks;
+     if(marks<=10){
+      cout << "LOWDE ";
+      if(marks<=5){
+          // nested
+             cout << "kyu likha bey exam";
+      }
+     }
+     else if (marks<=20)
+     {
+      cout << "F";
+     }
+       else if (marks<=30)
+     {
+      cout << "E";
+     }
+       else if (marks<=40)
+     {
+      cout << "D";
+     }
+       else if (marks<=50)
+     {
+      cout << "B";
+     }
+       else if (marks<=60)
+     {
+      cout << "B";
+     }
+       else if (marks<=70)
+     {
+      cout << "A";
+     }
+     return 0;
+}
+
